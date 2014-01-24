@@ -1,0 +1,27 @@
+# File in home directory by default that we don't care about.
+.ICEauthority
+.Xauthority
+.bash_history
+.cache/
+.config/
+.dbus/
+.dmrc
+.gconf/
+.gnome2/
+.gtk-bookmarks
+.local/
+.mission-control/
+.mozilla/
+.nv/
+.profile
+.pulse-cookie
+.pulse/
+.xsession-errors
+examples.desktop
+
+# Files I eventually added to home directory we don't want
+.lesshst
+.ssh/
+
+# Extra stuff we don't care about in general
+*~
