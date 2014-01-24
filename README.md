@@ -6,8 +6,8 @@ There are a bunch of computers in CSE 014 and moving around them sucks. This sho
 0. `ssh-keygen -t rsa -C "014-<computer_name_in_lower>"`
 0. `xclip -sel clip < ~/.ssh/id_rsa.pub`
 0. Create new key in Github profile and paste.
-0. `git clone git@github.com:mbforbes/fourteen.git`
-0. `cd fourteen; mv * .[^.]* ../; cd ..; rmdir fourteen`
+0. `cd ~; git clone git@github.com:mbforbes/fourteen.git`
+0. `cd ~/fourteen; mv * .[^.]* ../; cd ..; rmdir fourteen`
 0. `source ~/.bashrc`
 
 Then we should be good to go... haven't tested this yet and it could get jenky because of the "moving directory around" weirdness... we'll see...
