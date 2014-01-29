@@ -20,8 +20,10 @@
 examples.desktop
 
 # Files I eventually added to home directory we don't want
+.gstreamer-0.10/
 .lesshst
 .ssh/
+Downloads/
 
 # Extra stuff we don't care about in general
 *~
