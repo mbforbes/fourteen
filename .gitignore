@@ -23,7 +23,9 @@ examples.desktop
 .fontconfig
 .gstreamer-0.10/
 .lesshst
+.pip/
 .pki
+.ros/
 .ssh/
 Downloads/
 

@@ -105,3 +105,6 @@ fi
 if [ -f /etc/bash_completion ] && ! shopt -oq posix; then
     . /etc/bash_completion
 fi
+
+# For ROS (change groovy to hydro or whatever distro using).
+source /opt/ros/groovy/setup.bash
