@@ -20,8 +20,10 @@
 examples.desktop
 
 # Files I eventually added to home directory we don't want
+.fontconfig
 .gstreamer-0.10/
 .lesshst
+.pki
 .ssh/
 Downloads/
 
