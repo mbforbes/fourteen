@@ -108,3 +108,18 @@ fi
 
 # For ROS (change groovy to hydro or whatever distro using).
 source /opt/ros/groovy/setup.bash
+
+# Grabing IP for ROS_IP
+function my_ip() # Get IP adress on ethernet.
+{
+	MY_IP=$(/sbin/ifconfig eth0 | awk '/inet/ { print $2 } ' |
+  	sed -e s/addr://)
+	echo ${MY_IP:-"Not connected"}
+}
+echo "Current IP:"; my_ip
+
+# ROS related stuff
+export ROS_HOSTNAME=localhost
+export ROS_MASTER_URI=http://localhost:11311
+export ROBOT=sim
+# See bash_aliases for realrobot command (changes above vars for "real" robot usage).
