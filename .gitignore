@@ -27,8 +27,10 @@ examples.desktop
 .pip/
 .pki
 .ros/
+.rviz/
 .ssh/
 Downloads/
+rqt_rviz_ogre.log
 
 # This is where we'll install other software. Want them to
 # be in separate git repos.
