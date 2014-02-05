@@ -106,8 +106,10 @@ if [ -f /etc/bash_completion ] && ! shopt -oq posix; then
     . /etc/bash_completion
 fi
 
-# For ROS (change groovy to hydro or whatever distro using).
+# For ROS (change groovy to hydro or whatever distro using). Note
+# that likely only the second here is really needed.
 source /opt/ros/groovy/setup.bash
+source ~/catkin_ws/devel/setup.bash
 
 # Grabing IP for ROS_IP
 function my_ip() # Get IP adress on ethernet.

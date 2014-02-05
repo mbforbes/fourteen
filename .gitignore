@@ -20,6 +20,7 @@
 examples.desktop
 
 # Files I eventually added to home directory we don't want
+.compiz-1/
 .fontconfig
 .gazebo/
 .gstreamer-0.10/
@@ -29,6 +30,7 @@ examples.desktop
 .ros/
 .rviz/
 .ssh/
+.xsession-errors.old
 Downloads/
 rqt_rviz_ogre.log
 
@@ -38,3 +40,14 @@ repos/
 
 # Extra stuff we don't care about in general
 *~
+*.pyc
+
+# ROS Catkin stuff
+# http://answers.ros.org/question/10182/how-to-correctly-use-git-with-ros/
+build/
+# No pages online receommend ignore devel/, but maybe is good to ignore...
+devel/
+bin/
+lib/
+msg_gen/
+srv_gen/
