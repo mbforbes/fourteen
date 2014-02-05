@@ -15,3 +15,7 @@ Then we should be good to go... haven't tested this yet and it could get jenky b
 Links for this
 - http://help.github.com/articles/generating-ssh-keys#platform-linux
 - http://superuser.com/questions/62141/linux-how-to-move-all-files-from-current-directory-to-upper-directory
+
+## Sub-repositories
+We don't want to double-track files, so here are the local, remote locations of repositiories found within `fourteen`:
+0. rosbuild_ws/pr2_pdb/, https://github.com/mbforbes/pr2_pbd
