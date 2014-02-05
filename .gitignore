@@ -51,3 +51,7 @@ bin/
 lib/
 msg_gen/
 srv_gen/
+
+# ROS Rosbuild stuff
+# Want to ignore the repos within (e.g. pr2_pbd)
+rosbuild_ws/pr2_pbd/
