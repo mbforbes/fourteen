@@ -25,6 +25,7 @@ examples.desktop
 .gazebo/
 .gstreamer-0.10/
 .lesshst
+.matplotlib/
 .pip/
 .pki
 .ros/
