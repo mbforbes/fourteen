@@ -1,3 +1,5 @@
 [user]
 	name = Maxwell Forbes
 	email = m.b.forbes@gmail.com
+[core]
+	excludesfile = /home/mbforbes/.gitignore_global

@@ -18,11 +18,14 @@
 .pulse/
 .xsession-errors
 examples.desktop
+Downloads/
+Pictures/
 
 # Files I eventually added to home directory we don't want
 .compiz-1/
 .fontconfig
 .gazebo/
+.gnome/
 .gstreamer-0.10/
 .lesshst
 .matplotlib/
@@ -32,16 +35,17 @@ examples.desktop
 .rviz/
 .ssh/
 .xsession-errors.old
-Downloads/
 rqt_rviz_ogre.log
+
+# Here are some things I have on Robomackerel that I don't think I
+# should keep here as part of the config, but could add later if
+# needed. (Can always scp these if necessary.)
+da/
+data/
 
 # This is where we'll install other software. Want them to
 # be in separate git repos.
 repos/
-
-# Extra stuff we don't care about in general
-*~
-*.pyc
 
 # ROS Catkin stuff
 # http://answers.ros.org/question/10182/how-to-correctly-use-git-with-ros/
