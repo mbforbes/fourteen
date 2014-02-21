@@ -23,6 +23,7 @@ Pictures/
 
 # Files I eventually added to home directory we don't want
 .compiz-1/
+.fonts/
 .fontconfig
 .gazebo/
 .gnome/
@@ -34,6 +35,7 @@ Pictures/
 .ros/
 .rviz/
 .ssh/
+.thumbnails/
 .xsession-errors.old
 rqt_rviz_ogre.log
 
