@@ -1,3 +1,11 @@
 # see https://help.github.com/articles/ignoring-files
 *.pyc
 *~
+
+# See http://www.sublimetext.com/docs/2/projects.html
+*.sublime-workspace
+
+# This is bad according to the above link, but I do not
+# feel like doing some jenky workaround every time I
+# want to work on the main PR2 branch...
+*.sublime-project
