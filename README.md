@@ -20,7 +20,9 @@ We don't want to double-track files, so here are the local and remote locations 
    - local: *~/rosbuild_ws/pr2_pdb/*
    - github: *https://github.com/mbforbes/pr2_pbd*
    - acquire: `cd ~/rosbuild_ws/; git clone git@github.com:mbforbes/pr2_pbd.git`
-   - setup: `cd ~/rosbuild_ws/pr2_pbd; cd pr2_pbd_gui; make; cd ../; cd pr2_pbd_interaction; make; cd ...; cd pr2_pbd_speech_recognition; make; cd ../; cd pr2_social_gaze; make; cd ..`
+   - setup:
+      - in my repo: `cd ~/rosbuild_ws/pr2_pbd/; ./build_all.sh`
+      - in general: `cd ~/rosbuild_ws/pr2_pbd; cd pr2_pbd_gui; make; cd ../; cd pr2_pbd_interaction; make; cd ...; cd pr2_pbd_speech_recognition; make; cd ../; cd pr2_social_gaze; make; cd ..`
 
 ## TODO
 - Either get sublime settings saved and ported, or at least make a section on how to set it up and especially how to set up jedi (Python autocomplete / smart jumping)
