@@ -9,7 +9,7 @@ There are a bunch of computers in CSE 014 and moving around them sucks. This sho
 0. `cd ~; git clone git@github.com:mbforbes/fourteen.git`
 0. `cd ~/fourteen; mv * .[^.]* ../; cd ..; rmdir fourteen`
 0. `source ~/.bashrc`
-
+0. `sudo rosdep init; rosdep update`
 Then we should be good to go... haven't tested this yet and it could get jenky because of the "moving directory around" weirdness... we'll see...
 
 Links for this
