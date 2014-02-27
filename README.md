@@ -10,13 +10,19 @@ There are a bunch of computers in CSE 014 and moving around them sucks. This sho
 0. `cd ~/fourteen; mv * .[^.]* ../; cd ..; rmdir fourteen`
 0. `source ~/.bashrc`
 0. `sudo rosdep init; rosdep update`
-Then we should be good to go... haven't tested this yet and it could get jenky because of the "moving directory around" weirdness... we'll see...
 
-Links for this
-- http://help.github.com/articles/generating-ssh-keys#platform-linux
-- http://superuser.com/questions/62141/linux-how-to-move-all-files-from-current-directory-to-upper-directory
+That's it! Good to go.
 
 ## Sub-repositories
-We don't want to double-track files, so here are the local, remote locations of repositiories found within `fourteen`:
+We don't want to double-track files, so here are the local and remote locations  and checkout commands for repositiories found within `fourteen`:
 
-0. rosbuild_ws/pr2_pdb/, https://github.com/mbforbes/pr2_pbd
+0. PR2 PbD
+   - *local:* ~/rosbuild_ws/pr2_pdb/
+   - *github:* https://github.com/mbforbes/pr2_pbd
+   - *to acquire:* `cd ~/rosbuild_ws/; git clone git@github.com:mbforbes/pr2_pbd.git`
+
+## Reference
+Here are some links for pages I used to figure out the above:
+
+- [Generating SSH Keys](http://help.github.com/articles/generating-ssh-keys#platform-linux)
+- [Move all files from current to upper directory](http://superuser.com/questions/62141/linux-how-to-move-all-files-from-current-directory-to-upper-directory)
