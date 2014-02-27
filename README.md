@@ -16,10 +16,10 @@ That's it! Good to go.
 ## Sub-repositories
 We don't want to double-track files, so here are the local and remote locations  and checkout commands for repositiories found within `fourteen`:
 
-0. PR2 PbD
-   - *local:* ~/rosbuild_ws/pr2_pdb/
-   - *github:* https://github.com/mbforbes/pr2_pbd
-   - *to acquire:* `cd ~/rosbuild_ws/; git clone git@github.com:mbforbes/pr2_pbd.git`
+0. **PR2 PbD**
+   - local: *~/rosbuild_ws/pr2_pdb/*
+   - github: *https://github.com/mbforbes/pr2_pbd*
+   - to acquire: `cd ~/rosbuild_ws/; git clone git@github.com:mbforbes/pr2_pbd.git`
 
 ## Reference
 Here are some links for pages I used to figure out the above:
