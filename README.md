@@ -21,6 +21,13 @@ We don't want to double-track files, so here are the local and remote locations 
    - github: *https://github.com/mbforbes/pr2_pbd*
    - to acquire: `cd ~/rosbuild_ws/; git clone git@github.com:mbforbes/pr2_pbd.git`
 
+## TODO
+- Either get sublime settings saved and ported, or at least make a section on how to set it up and especially how to set up jedi (Python autocomplete / smart jumping)
+  - sublime package manager
+  - sublemacs
+  - ruler at line 80
+  - jedi for python
+
 ## Reference
 Here are some links for pages I used to figure out the above:
 
