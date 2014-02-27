@@ -27,7 +27,9 @@ We don't want to double-track files, so here are the local and remote locations 
   - sublemacs
   - ruler at line 80
   - jedi for python
-
+- Try to find commands to do the following (or list as steps):
+  - [Unmap alt from using HUB](http://askubuntu.com/questions/122209/how-do-i-modify-or-disable-the-huds-use-of-the-alt-key)
+  - [Unmap alt from opening terminal menu](http://stackoverflow.com/questions/14793561/emacs-in-ubuntu-terminal-meta-key-opens-menus)
 ## Reference
 Here are some links for pages I used to figure out the above:
 
