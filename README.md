@@ -14,7 +14,7 @@ There are a bunch of computers in CSE 014 and moving around them sucks. This sho
 That's it! Good to go.
 
 ## Sub-repositories
-We don't want to double-track files, so here are the local and remote locations  and checkout commands for repositiories found within `fourteen`:
+We don't want to double-track files, so here are the local and remote locations  and checkout commands for repositiories found within *fourteen*:
 
 0. **PR2 PbD**
    - local: *~/rosbuild_ws/pr2_pdb/*
