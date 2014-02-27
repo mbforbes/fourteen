@@ -35,6 +35,7 @@ Pictures/
 .ros/
 .rviz/
 .ssh/
+.ssr/
 .thumbnails/
 .xsession-errors.old
 rqt_rviz_ogre.log
