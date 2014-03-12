@@ -20,12 +20,14 @@
 examples.desktop
 Downloads/
 Pictures/
+Videos/
 
 # Files I eventually added to home directory we don't want
 .compiz-1/
 .fonts/
 .fontconfig
 .gazebo/
+.gnash/
 .gnome/
 .gstreamer-0.10/
 .lesshst
@@ -38,7 +40,9 @@ Pictures/
 .ssr/
 .thumbnails/
 .xsession-errors.old
+gui_vid_data/
 rqt_rviz_ogre.log
+temp/
 
 # Here are some things I have on Robomackerel that I don't think I
 # should keep here as part of the config, but could add later if
