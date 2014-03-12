@@ -9,14 +9,33 @@ There are a bunch of computers in CSE 014 and moving around them sucks. This sho
 0. `cd ~; git clone git@github.com:mbforbes/fourteen.git`
 0. `cd ~/fourteen; mv * .[^.]* ../; cd ..; rmdir fourteen`
 0. `source ~/.bashrc`
+0. `sudo rosdep init; rosdep update`
 
-Then we should be good to go... haven't tested this yet and it could get jenky because of the "moving directory around" weirdness... we'll see...
-
-Links for this
-- http://help.github.com/articles/generating-ssh-keys#platform-linux
-- http://superuser.com/questions/62141/linux-how-to-move-all-files-from-current-directory-to-upper-directory
+That's it! Good to go.
 
 ## Sub-repositories
-We don't want to double-track files, so here are the local, remote locations of repositiories found within `fourteen`:
+We don't want to double-track files, so here are the local and remote locations  and checkout commands for repositiories found within *fourteen*:
 
-0. rosbuild_ws/pr2_pdb/, https://github.com/mbforbes/pr2_pbd
+0. **PR2 PbD**
+   - local: *~/rosbuild_ws/pr2_pdb/*
+   - github: *https://github.com/mbforbes/pr2_pbd*
+   - acquire: `cd ~/rosbuild_ws/; git clone git@github.com:mbforbes/pr2_pbd.git`
+   - setup:
+      - in my repo: `cd ~/rosbuild_ws/pr2_pbd/; ./build_all.sh`
+      - in general: `cd ~/rosbuild_ws/pr2_pbd; cd pr2_pbd_gui; make; cd ../; cd pr2_pbd_interaction; make; cd ...; cd pr2_pbd_speech_recognition; make; cd ../; cd pr2_social_gaze; make; cd ..`
+
+## TODO
+- Either get sublime settings saved and ported, or at least make a section on how to set it up and especially how to set up jedi (Python autocomplete / smart jumping)
+  - sublime package manager
+  - sublemacs
+  - ruler at line 80
+  - jedi for python
+- Try to find commands to do the following (or list as steps):
+  - [Unmap alt from using HUB](http://askubuntu.com/questions/122209/how-do-i-modify-or-disable-the-huds-use-of-the-alt-key)
+  - [Unmap alt from opening terminal menu](http://stackoverflow.com/questions/14793561/emacs-in-ubuntu-terminal-meta-key-opens-menus)
+
+## Reference
+Here are some links for pages I used to figure out the above:
+
+- [Generating SSH Keys](http://help.github.com/articles/generating-ssh-keys#platform-linux)
+- [Move all files from current to upper directory](http://superuser.com/questions/62141/linux-how-to-move-all-files-from-current-directory-to-upper-directory)
