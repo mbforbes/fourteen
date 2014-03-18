@@ -4,6 +4,8 @@ alias ea='emacs ~/.bash_aliases'
 alias erc='emacs ~/.bashrc'
 alias gits='git status'
 alias gitb='git branch'
+alias gita='git add .'
+alias gitc='git commit -m'
 alias n='nautilus'
 alias rm='rm -i'
 
