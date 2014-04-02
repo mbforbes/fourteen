@@ -127,3 +127,6 @@ export ROS_HOSTNAME=localhost
 export ROS_MASTER_URI=http://localhost:11311
 export ROBOT=sim
 # See bash_aliases for realrobot command (changes above vars for "real" robot usage).
+
+# Python things
+export PYTHONPATH=~/repos/beautyplot:$PYTHONPATH
