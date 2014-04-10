@@ -6,6 +6,7 @@ alias gits='git status'
 alias gitb='git branch'
 alias gita='git add .'
 alias gitc='git commit -m'
+alias gpom='git push origin master'
 alias n='nautilus'
 alias rm='rm -i'
 

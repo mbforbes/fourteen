@@ -18,10 +18,13 @@
 .pulse/
 .xsession-errors
 examples.desktop
+Desktop/
 Downloads/
+Music/
 Videos/
 
 # Files I eventually added to home directory we don't want
+.audacity-data/
 .compiz-1/
 .fonts/
 .fontconfig
