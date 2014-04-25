@@ -17,6 +17,6 @@ alias pbd='cd ~/rosbuild_ws/pr2_pbd/'
 alias int='pbd; cd pr2_pbd_interaction/src'
 alias data='pbd; cd pr2_pbd_interaction/data'
 alias anl='data; cd experimentAnalysis'
-alias test='data; cd experimentTesting'
+alias gotest='data; cd experimentTesting'
 alias gui='pbd; cd pr2_pbd_gui'
 
