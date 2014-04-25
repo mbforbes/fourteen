@@ -9,6 +9,7 @@ alias gitc='git commit -m'
 alias gpom='git push origin master'
 alias n='nautilus'
 alias rm='rm -i'
+alias u='cd ..' #thanks, justin
 
 # PbD
 alias realrobot='unset ROBOT; unset ROS_HOSTNAME; export ROS_MASTER_URI=http://c1:11311; export ROS_IP=$MY_IP'

@@ -1,0 +1,29 @@
+{
+	"auto_complete_commit_on_tab": true,
+	"auto_complete_triggers":
+	[
+		{
+			"characters": ".",
+			"selector": "source.python"
+		}
+	],
+	"color_scheme": "Packages/Monokai Extended/Monokai Extended.tmTheme",
+	"ensure_newline_at_eof_on_save": true,
+	"font_options":
+	[
+		"subpixel_antialias"
+	],
+	"font_size": 9,
+	"ignored_packages":
+	[
+		"Vintage",
+		"SublimeLinter"
+	],
+	"rulers":
+	[
+		79,
+		72
+	],
+	"theme": "Soda Dark.sublime-theme",
+	"trim_trailing_white_space_on_save": true
+}

@@ -108,10 +108,10 @@ fi
 
 # For ROS (change groovy to hydro or whatever distro using). Note
 # that likely only the second here is really needed.
-source /opt/ros/groovy/setup.bash
-#source ~/catkin_ws/devel/setup.bash
-source ~/rosbuild_ws/setup.bash
-export ROS_PACKAGE_PATH=~/rosbuild_ws/:$ROS_PACKAGE_PATH
+#source /opt/ros/groovy/setup.bash
+source ~/catkin_ws/devel/setup.bash
+#source ~/rosbuild_ws/setup.bash
+export ROS_PACKAGE_PATH=~/catkin_ws/src/pr2_pbd/:$ROS_PACKAGE_PATH
 
 # Grabing IP for ROS_IP
 function my_ip() # Get IP adress on ethernet.
@@ -130,3 +130,6 @@ export ROBOT=sim
 
 # Python things
 export PYTHONPATH=~/repos/beautyplot:$PYTHONPATH
+
+# Java things
+export JAVA_HOME=/usr/lib/jvm/java-7-openjdk-amd64

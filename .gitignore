@@ -38,6 +38,7 @@ Videos/
 .pip/
 .pki
 .ros/
+.rpmdb/
 .rviz/
 .ssh/
 .ssr/
@@ -66,6 +67,7 @@ bin/
 lib/
 msg_gen/
 srv_gen/
+catkin_ws/src/pr2_pbd/
 
 # ROS Rosbuild stuff
 # Want to ignore the repos within (e.g. pr2_pbd)
