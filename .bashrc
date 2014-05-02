@@ -106,14 +106,32 @@ if [ -f /etc/bash_completion ] && ! shopt -oq posix; then
     . /etc/bash_completion
 fi
 
-# For ROS (change groovy to hydro or whatever distro using). Note
-# that likely only the second here is really needed.
-#source /opt/ros/groovy/setup.bash
-source ~/catkin_ws/devel/setup.bash
+# For ROS (change groovy to hydro or whatever distro using)
+# --------------------------------------------------------
+# Groovy + ROSbuild: must do this manually
 #source ~/rosbuild_ws/setup.bash
-export ROS_PACKAGE_PATH=~/catkin_ws/src/pr2_pbd/:$ROS_PACKAGE_PATH
+
+# Call with `setros groovy` or `setros hydro`
+function setros() {
+    source /opt/ros/$1/setup.bash
+    source ~/catkin_$1_ws/devel/setup.bash
+    export ROS_PACKAGE_PATH=~/catkin_$1_ws/src/:/opt/ros/$1/share:/opt/ros/$1/stacks
+}
+
+# Call to switch to rosbuild (and groovy)...
+function setrosbuild() {
+    source /opt/ros/groovy/setup.bash
+    source ~/rosbuild_ws/setup.bash
+    export ROS_PACKAGE_PATH=~/rosbuild_ws/:/opt/ros/groovy/share:/opt/ros/groovy/stacks
+}
+
+# Pick our default ROS to use here.
+#setros hydro
+#setros groovy
+setrosbuild
 
 # Grabing IP for ROS_IP
+# --------------------------------------------------------
 function my_ip() # Get IP adress on ethernet.
 {
 	MY_IP=$(/sbin/ifconfig eth0 | awk '/inet/ { print $2 } ' |
@@ -122,11 +140,14 @@ function my_ip() # Get IP adress on ethernet.
 }
 echo "Current IP:"; my_ip
 
-# ROS related stuff
+# General ROS exports
+# --------------------------------------------------------
 export ROS_HOSTNAME=localhost
 export ROS_MASTER_URI=http://localhost:11311
 export ROBOT=sim
-# See bash_aliases for realrobot command (changes above vars for "real" robot usage).
+
+# See bash_aliases for realrobot command (changes above vars
+# for "real" robot usage).
 
 # Python things
 export PYTHONPATH=~/repos/beautyplot:$PYTHONPATH

@@ -31,8 +31,10 @@ Videos/
 .gazebo/
 .gnash/
 .gnome/
+.gradle/
 .gstreamer-0.10/
 .lesshst
+.m2/
 .macromedia/
 .matplotlib/
 .pip/
@@ -67,8 +69,9 @@ bin/
 lib/
 msg_gen/
 srv_gen/
-catkin_ws/src/pr2_pbd/
+catkin_*_ws/src/
 
 # ROS Rosbuild stuff
 # Want to ignore the repos within (e.g. pr2_pbd)
 rosbuild_ws/pr2_pbd/
+rosbuild_ws/pr2_object_manipulation/
