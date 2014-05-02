@@ -1,1 +1,1 @@
-0 21 * * * python /home/mbforbes/repos/hcomp2014/checker.py --email
+0 21 * * * python /home/mbforbes/repos/git-checker/checker.py --email
