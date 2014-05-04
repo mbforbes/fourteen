@@ -1,11 +1,3 @@
-# IT IS UNLIKELY YOU WANT TO EDIT THIS FILE BY HAND,
-# UNLESS FOR REMOVING ENTRIES.
-# IF YOU WANT TO CHANGE THE ROS ENVIRONMENT VARIABLES
-# USE THE rosinstall TOOL INSTEAD.
-# IF YOU CHANGE IT, USE rosinstall FOR THE CHANGES TO TAKE EFFECT
-
-# NOTE(max): Original setup file, sourcing central groovy as usual.
-#- setup-file: {local-name: /opt/ros/groovy/setup.sh}
-
-# NOTE(max): New setup file, sourcing catkin workspace's setup (!).
 - setup-file: {local-name: /home/mbforbes/catkin_groovy_ws/devel/setup.sh}
+- git: {local-name: rosjava_core, uri: 'git://github.com/rosjava/rosjava_core.git',
+    version: groovy}

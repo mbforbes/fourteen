@@ -75,3 +75,4 @@ catkin_*_ws/src/
 # Want to ignore the repos within (e.g. pr2_pbd)
 rosbuild_ws/pr2_pbd/
 rosbuild_ws/pr2_object_manipulation/
+rosbuild_ws/rosjava_core/
