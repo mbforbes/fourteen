@@ -3,6 +3,7 @@
 	email = m.b.forbes@gmail.com
 [core]
 	excludesfile = /home/mbforbes/.gitignore_global
+	editor = emacs
 [push]
 	default = current
 [alias]

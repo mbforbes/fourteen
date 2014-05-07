@@ -126,9 +126,9 @@ function setrosbuild() {
 }
 
 # Pick our default ROS to use here.
-#setros hydro
-#setros groovy
-setrosbuild
+setros hydro # hydro + catkin
+#setros groovy # groovy + catkin
+#setrosbuild # groovy + rosbuild
 
 # Grabing IP for ROS_IP
 # --------------------------------------------------------
