@@ -2,10 +2,11 @@
 
 ## Starting up robot
 ```bash
-stop
+robot stop
 robot claim
-roslaunch /etc/ros/hydro/robot.launch
-roslaunch pr2_moveit_config move_group.launch # TODO put in launch file
+roslaunch /etc/ros/hydro/robot.launch # instead of robot start (TODO: this matters?)
+roslaunch pr2_moveit_config move_group.launch # TODO: put in launch file
+roslaunch pr2_pbd_interaction interaction_node.launch # TODO: I think (we've got to run PbD somewhere, right?)
 ```
 
 ## Commands on desktop
