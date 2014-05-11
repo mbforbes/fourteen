@@ -1,3 +1,1 @@
-- setup-file: {local-name: /home/mbforbes/catkin_groovy_ws/devel/setup.sh}
-- git: {local-name: rosjava_core, uri: 'git://github.com/rosjava/rosjava_core.git',
-    version: groovy}
+- setup-file: {local-name: /opt/ros/groovy/setup.sh}

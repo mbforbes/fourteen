@@ -126,9 +126,9 @@ function setrosbuild() {
 }
 
 # Pick our default ROS to use here.
-setros hydro # hydro + catkin
+#setros hydro # hydro + catkin
 #setros groovy # groovy + catkin
-#setrosbuild # groovy + rosbuild
+setrosbuild # groovy + rosbuild
 
 # Grabing IP for ROS_IP
 # --------------------------------------------------------
@@ -153,4 +153,11 @@ export ROBOT=sim
 export PYTHONPATH=~/repos/beautyplot:$PYTHONPATH
 
 # Java things
-export JAVA_HOME=/usr/lib/jvm/java-6-openjdk-amd64
+# prev working
+#export JAVA_HOME=/usr/lib/jvm/java-6-openjdk-amd64
+
+# new: try java8 just untarred from oracle
+export JAVA_HOME=/usr/lib/jvm/jdk1.8.0_05
+
+# For Dan's oflow
+export PATH=~/repos/oflow:$PATH
