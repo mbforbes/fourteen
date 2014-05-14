@@ -116,6 +116,7 @@ function setros() {
     source /opt/ros/$1/setup.bash
     source ~/catkin_$1_ws/devel/setup.bash
     export ROS_PACKAGE_PATH=~/catkin_$1_ws/src/:/opt/ros/$1/share:/opt/ros/$1/stacks
+    echo "ROS env:    ${1}, catkin"
 }
 
 # Call to switch to rosbuild (and groovy)...
@@ -123,6 +124,7 @@ function setrosbuild() {
     source /opt/ros/groovy/setup.bash
     source ~/rosbuild_ws/setup.bash
     export ROS_PACKAGE_PATH=~/rosbuild_ws/:/opt/ros/groovy/share:/opt/ros/groovy/stacks
+    echo "ROS env:    groovy, rosbuild"
 }
 
 # Pick our default ROS to use here.
@@ -136,9 +138,10 @@ function my_ip() # Get IP adress on ethernet.
 {
 	MY_IP=$(/sbin/ifconfig eth0 | awk '/inet/ { print $2 } ' |
   	sed -e s/addr://)
-	echo ${MY_IP:-"Not connected"}
+	#echo ${MY_IP:-"Not connected"}
 }
-echo "Current IP:"; my_ip
+my_ip
+echo "Current IP: ${MY_IP}"
 
 # General ROS exports
 # --------------------------------------------------------

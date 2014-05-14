@@ -37,6 +37,8 @@ Videos/
 .m2/
 .macromedia/
 .matplotlib/
+.node-gyp/
+.npm/
 .pip/
 .pki
 .ros/
@@ -45,6 +47,7 @@ Videos/
 .ssh/
 .ssr/
 .thumbnails/
+.viminfo
 .xsession-errors.old
 gui_vid_data/
 rqt_rviz_ogre.log
