@@ -27,6 +27,9 @@ Videos/
 # Files I eventually added to home directory we don't want
 .audacity-data/
 .compiz-1/
+.dropbox-dist/
+.dropbox-master/
+.dropbox/
 .fonts/
 .fontconfig
 .gazebo/
@@ -53,6 +56,7 @@ Videos/
 gui_vid_data/
 rqt_rviz_ogre.log
 temp/
+Dropbox/
 
 # Here are some things I have on Robomackerel that I don't think I
 # should keep here as part of the config, but could add later if
@@ -80,3 +84,4 @@ catkin_*_ws/src/
 rosbuild_ws/pr2_pbd/
 rosbuild_ws/pr2_object_manipulation/
 rosbuild_ws/rosjava_core/
+rosbuild_ws/test_pr2om_grasp/

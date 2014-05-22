@@ -164,3 +164,6 @@ export JAVA_HOME=/usr/lib/jvm/jdk1.8.0_05
 
 # For Dan's oflow
 export PATH=~/repos/oflow:$PATH
+
+# Format console output.
+export ROSCONSOLE_FORMAT='[${severity}] [${node}@${function}:${line}]: ${message}'
