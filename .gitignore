@@ -26,6 +26,7 @@ Videos/
 
 # Files I eventually added to home directory we don't want
 .audacity-data/
+.compiz/
 .compiz-1/
 .dropbox-dist/
 .dropbox-master/
