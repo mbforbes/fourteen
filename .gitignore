@@ -36,6 +36,7 @@ Videos/
 .gazebo/
 .gnash/
 .gnome/
+.goutputstream-*
 .gradle/
 .gstreamer-0.10/
 .lesshst
