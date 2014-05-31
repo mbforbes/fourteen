@@ -53,6 +53,7 @@ Videos/
 .ssh/
 .ssr/
 .thumbnails/
+.thunderbird/
 .viminfo
 .xsession-errors.old
 gui_vid_data/
