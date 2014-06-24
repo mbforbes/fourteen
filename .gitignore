@@ -39,6 +39,7 @@ Videos/
 .goutputstream-*
 .gradle/
 .gstreamer-0.10/
+.kde/
 .lesshst
 .m2/
 .macromedia/
@@ -50,6 +51,7 @@ Videos/
 .ros/
 .rpmdb/
 .rviz/
+.Skype/
 .ssh/
 .ssr/
 .thumbnails/
