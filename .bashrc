@@ -167,3 +167,6 @@ export PATH=~/repos/oflow:$PATH
 
 # Format console output.
 export ROSCONSOLE_FORMAT='[${severity}] [${node}@${function}:${line}]: ${message}'
+
+# So yeah
+export EDITOR='emacs -nw'
