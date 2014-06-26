@@ -1,1 +1,0 @@
-roslaunch pr2_pbd_interaction pbd_demo_desktop_sphinx.launch

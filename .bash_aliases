@@ -20,8 +20,19 @@ alias data='pbd; cd pr2_pbd_interaction/data'
 alias anl='data; cd experimentAnalysis'
 alias gotest='data; cd experimentTesting'
 alias gui='pbd; cd pr2_pbd_gui'
-alias r1='~/r1.sh'
-alias r2='~/r2.sh'
-alias r3='~/r3.sh'
-alias r4='~/r4.sh'
 alias java8='/usr/lib/jvm/jdk1.8.0_05/bin/java'
+
+# SIM robot
+alias r1='roslaunch pr2_pbd_interaction simulated_robot.launch'
+
+# SIM PbD backend
+alias r2='roslaunch pr2_pbd_interaction pbd_demo_robot.launch sim:=true'
+
+# SIM | REALROBOT PbD frontend
+alias r3='roslaunch pr2_pbd_interaction pbd_demo_desktop.launch'
+
+# For NLP folks (this is the 'original' system, using
+# sphinx w/ old words) SIM | REALROBOT PbD frontend.
+alias r4='roslaunch pr2_pbd_interaction pbd_demo_desktop_sphinx.launch'
+
+
