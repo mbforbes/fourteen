@@ -36,3 +36,16 @@ alias r3='roslaunch pr2_pbd_interaction pbd_demo_desktop.launch'
 alias r4='roslaunch pr2_pbd_interaction pbd_demo_desktop_sphinx.launch'
 
 
+# The following are for running interactive manipulation (IM).
+# backend (sim)
+alias im_be='roslaunch pr2_interactive_manipulation pr2_interactive_manipulation_robot.launch sim:=true reactive_grasping:=true'
+# frontend (sim)
+alias im_fe='roslaunch pr2_interactive_manipulation_frontend pr2_interactive_manipulation_desktop.launch sim:=true'
+# frontend (real robot)
+alias im_ferr='roslaunch pr2_interactive_manipulation_frontend pr2_interactive_manipulation_desktop.launch'
+
+# New launch: sim stack
+alias sim='roslaunch pr2_pbd_interaction pbd_simulation_stack.launch'
+
+# Connect to rostest maseter
+alias testip='export ROS_MASTER_URI=http://localhost:22422'

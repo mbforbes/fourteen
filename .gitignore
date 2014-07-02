@@ -34,6 +34,7 @@ Videos/
 .fonts/
 .fontconfig
 .gazebo/
+.gem/
 .gnash/
 .gnome/
 .goutputstream-*
