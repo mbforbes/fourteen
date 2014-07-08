@@ -169,4 +169,4 @@ export PATH=~/repos/oflow:$PATH
 export ROSCONSOLE_FORMAT='[${severity}] [${node}@${function}:${line}]: ${message}'
 
 # So yeah
-export EDITOR='emacs -nw'
+export EDITOR='subl'
