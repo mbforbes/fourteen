@@ -49,6 +49,7 @@ Videos/
 .npm/
 .pip/
 .pki
+.remmina/
 .ros/
 .rpmdb/
 .rviz/
