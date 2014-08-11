@@ -7,6 +7,7 @@ alias gitb='git branch'
 alias gita='git add .'
 alias gitc='git commit -m'
 alias gpom='git push origin master'
+alias gcheck='python ~/repos/git-checker/checker.py'
 alias n='nautilus'
 alias rm='rm -i'
 alias u='cd ..' #thanks, justin
