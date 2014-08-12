@@ -154,6 +154,7 @@ export ROBOT=sim
 
 # Python things
 export PYTHONPATH=~/repos/beautyplot:$PYTHONPATH
+export PYTHONPATH=~/repos/hfpbd-parser:$PYTHONPATH
 
 # Java things
 # prev working

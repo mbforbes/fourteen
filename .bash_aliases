@@ -22,7 +22,9 @@ alias anl='data; cd experimentAnalysis'
 alias gotest='data; cd experimentTesting'
 alias gui='pbd; cd pr2_pbd_gui'
 alias java8='/usr/lib/jvm/jdk1.8.0_05/bin/java'
-alias hfp='cd ~/repos/hfpbd-parser; python hybridbayes.py ros'
+alias hfp='cd ~/repos/hfpbd-parser;'
+alias hfpw='hfp; python parser/web/web_interface.py'
+alias hfps='hfp; python parser/core/frontends.py ros'
 
 # SIM robot
 alias r1='roslaunch pr2_pbd_interaction simulated_robot.launch'
