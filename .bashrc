@@ -106,11 +106,9 @@ if [ -f /etc/bash_completion ] && ! shopt -oq posix; then
     . /etc/bash_completion
 fi
 
-# For ROS (change groovy to hydro or whatever distro using)
-# --------------------------------------------------------
-# Groovy + ROSbuild: must do this manually
-#source ~/rosbuild_ws/setup.bash
-
+# For ROS (distro & build system config)
+# --------------------------------------
+# Catkin
 # Call with `setros groovy` or `setros hydro`
 function setros() {
     source /opt/ros/$1/setup.bash
@@ -119,7 +117,8 @@ function setros() {
     echo "ROS env:    ${1}, catkin"
 }
 
-# Call to switch to rosbuild (and groovy)...
+# ROSbuild
+# Call to switch to rosbuild (and groovy)
 function setrosbuild() {
     source /opt/ros/groovy/setup.bash
     source ~/rosbuild_ws/setup.bash

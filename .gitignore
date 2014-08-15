@@ -53,6 +53,7 @@ Videos/
 .ros/
 .rpmdb/
 .rviz/
+.sdformat
 .Skype/
 .ssh/
 .ssr/
@@ -71,6 +72,9 @@ Dropbox/
 da/
 data/
 
+# PbD Hydro actions go here
+pbd_actions/
+
 # This is where we'll install other software. Want them to
 # be in separate git repos.
 repos/
@@ -84,7 +88,7 @@ bin/
 lib/
 msg_gen/
 srv_gen/
-catkin_*_ws/src/
+catkin_*_ws/
 
 # ROS Rosbuild stuff
 # Want to ignore the repos within (e.g. pr2_pbd)
