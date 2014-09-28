@@ -17,14 +17,17 @@ alias realrobot='unset ROBOT; unset ROS_HOSTNAME; export ROS_MASTER_URI=http://c
 alias dashboard='realrobot; rosrun rqt_pr2_dashboard rqt_pr2_dashboard'
 alias pbd='cd ~/rosbuild_ws/pr2_pbd/'
 alias int='pbd; cd pr2_pbd_interaction/src'
-alias data='pbd; cd pr2_pbd_interaction/data'
-alias anl='data; cd experimentAnalysis'
-alias gotest='data; cd experimentTesting'
+alias data='cd ~/repos/hfpbd-data/14-09sep'
 alias gui='pbd; cd pr2_pbd_gui'
 alias java8='/usr/lib/jvm/jdk1.8.0_05/bin/java'
 alias hfp='cd ~/repos/hfpbd-parser'
 alias hfpw='hfp; python parser/web/web_interface.py'
 alias hfps='hfp; python parser/core/frontends.py ros'
+
+# PbD old data dirs (from HCOMP experiments)
+#alias data='pbd; cd pr2_pbd_interaction/data'
+#alias anl='data; cd experimentAnalysis'
+#alias gotest='data; cd experimentTesting'
 
 # SIM robot
 alias r1='roslaunch pr2_pbd_interaction simulated_robot.launch'
